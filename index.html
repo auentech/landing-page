@@ -8,6 +8,20 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
         <style>
+            @media (prefers-color-scheme: light) {
+                body {
+                    color: #121212 !important;
+                    background: #eeeeee;
+                }
+            }
+
+            @media (prefers-color-scheme: dark) {
+                body {
+                    color: #eeeeee !important;
+                    background: #121212;
+                }
+            }
+
             .animate__delay-1s {
                 --animate-delay: 0.7s;
             }
@@ -25,10 +39,6 @@
                     fill: #FD6022;
                     color: #FD6022;
                 }
-            }
-
-            body {
-                background: #121212;
             }
         </style>
     </head>
@@ -55,10 +65,10 @@
                             </div>
                             <div class="level-item">
                                 <div class="animate__animated animate__fadeInUp animate__delay-1s has-text-centered-mobile">
-                                    <p class="title has-text-light">
+                                    <p class="is-size-2 has-text-weight-bold">
                                         auen
                                     </p>
-                                    <p class="is-size-5 has-text-light">
+                                    <p class="is-size-5">
                                         Development agency for humans
                                     </p>
                                 </div>
