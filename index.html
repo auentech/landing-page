@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>auen | Development agency, for humans</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+        <style>
+            .animate__delay-1s {
+                --animate-delay: 0.7s;
+            }
+
+            /* .logo-colorrr {
+                background-color: #DBFB24;
+                -webkit-transition: all 1s ease-in-out;
+                -moz-transition: all 1s ease-in-out;
+                -o-transition: all 1s ease-in-out;
+                -ms-transition: all 1s ease-in-out;
+                transition: all 1s ease-in-out;
+            } */
+
+            .logo-color {
+                animation: bodybg 4s 0s linear infinite alternate;
+            }
+
+            @keyframes bodybg{
+                from   {background-color: #DBFB24;}
+                to     {background-color: #FD6022;}
+            }
+        </style>
+    </head>
+    <body>
+        <section class="hero is-fullheight">
+            <div class="hero-body">
+                <div class="column is-half is-offset-3">
+                    <div class="">
+                        <div class="level">
+                            <div class="level-item animate__animated animate__fadeInUp">
+                                <figure class="image is-128x128 animate__fadeInUp">
+                                    <img src="a.svg" class="logo-color" id="logo">
+                                </figure>
+                            </div>
+                            <div class="level-item">
+                                <div class="animate__animated animate__fadeInUp animate__delay-1s has-text-centered-mobile">
+                                    <p class="title">
+                                        auen
+                                    </p>
+                                    <p class="is-size-5">
+                                        Development agency for humans
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
