@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>auen | Development agency, for humans</title>
+        <title>auen | Development agency for humans</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
         <style>
@@ -12,22 +12,23 @@
                 --animate-delay: 0.7s;
             }
 
-            /* .logo-colorrr {
-                background-color: #DBFB24;
-                -webkit-transition: all 1s ease-in-out;
-                -moz-transition: all 1s ease-in-out;
-                -o-transition: all 1s ease-in-out;
-                -ms-transition: all 1s ease-in-out;
-                transition: all 1s ease-in-out;
-            } */
-
             .logo-color {
                 animation: bodybg 4s 0s linear infinite alternate;
             }
 
-            @keyframes bodybg{
-                from   {background-color: #DBFB24;}
-                to     {background-color: #FD6022;}
+            @keyframes bodybg {
+                from {
+                    fill: #DBFB24;
+                    color: #DBFB24;
+                }
+                to {
+                    fill: #FD6022;
+                    color: #FD6022;
+                }
+            }
+
+            body {
+                background: #121212;
             }
         </style>
     </head>
@@ -39,15 +40,25 @@
                         <div class="level">
                             <div class="level-item animate__animated animate__fadeInUp">
                                 <figure class="image is-128x128 animate__fadeInUp">
-                                    <img src="a.svg" class="logo-color" id="logo">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 32.699 33.136" style="enable-background:new 0 0 32.699 33.136;" xml:space="preserve">
+                                        <g id="Apres">
+                                            <path class="logo-color" d="M26.348,0.043c2.112-0.032,4.231-0.082,6.343,0.01c-0.009,11.005,0.014,22.01,0.007,33.015
+                                                c-10.874,0.03-21.75,0.012-32.619,0.069c-0.05-0.232-0.067-0.47-0.058-0.707C0.014,21.647-0.004,10.865,0.001,0.083
+                                                C8.783,0.06,17.566,0.053,26.348,0.043z M18.426,3.221c-4.312,8.864-8.342,17.872-12.582,26.773
+                                                c2.503,0.003,5.007,0.002,7.51-0.004c2.767-5.849,5.518-11.706,8.272-17.561c1.396-3.115,3.002-6.133,4.336-9.275
+                                                C23.451,3.197,20.927,3.082,18.426,3.221z M22.949,17.939c-2.717,0.063-4.447,3.462-2.972,5.722
+                                                c1.149,2.087,4.361,2.465,5.927,0.652c1.347-1.357,1.409-3.759,0.075-5.146C25.233,18.312,24.075,17.859,22.949,17.939z"/>
+                                        </g>
+                                    </svg>
                                 </figure>
                             </div>
                             <div class="level-item">
                                 <div class="animate__animated animate__fadeInUp animate__delay-1s has-text-centered-mobile">
-                                    <p class="title">
+                                    <p class="title has-text-light">
                                         auen
                                     </p>
-                                    <p class="is-size-5">
+                                    <p class="is-size-5 has-text-light">
                                         Development agency for humans
                                     </p>
                                 </div>
@@ -55,6 +66,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="hero-foot m-4 animate__animated animate__fadeInUp animate__delay-1s ">
+                <p class="has-text-centered">
+                    <a href="mailto:hey@auentech.io" class="logo-color">karan&saad</a>
+                </p>
             </div>
         </section>
     </body>
